@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "env": "aeproject env",
     "test": "mocha ./test/**/*.js --timeout 0 --exit",
     "aetest": "aeproject test",
     "postinstall": "node .scripts/postinstall.js"
@@ -10,15 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aeternity/aepp-sdk": "^7.5.0",
+    "@aeternity/aepp-sdk": "^7.7.0",
     "aeproject-config": "^2.2.0",
     "aeproject-utils": "^2.2.0",
     "aeproject-lib": "^2.2.0",
-    "bignumber.js": "^9.0.0",
+    "bignumber.js": "^9.0.1",
     "esm": "^3.2.25",
     "chai": "^4.2.0"
   },
   "devDependencies": {
-    "mocha": "^8.0.1"
+    "mocha": "^8.2.1"
   }
 }
